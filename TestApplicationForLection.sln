@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApplicationForLection", "TestApplicationForLection\TestApplicationForLection.csproj", "{A94A1EB8-FA6A-458C-BD2E-CAA42128F57A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zmeyka", "TestApplicationForLection\Zmeyka.csproj", "{A94A1EB8-FA6A-458C-BD2E-CAA42128F57A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zmeyka", "ConsoleApp1\Zmeyka.csproj", "{2EC72E12-9EBF-4243-9C9F-16CCFF771BB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathSampl", "ConsoleApp1\MathSampl.csproj", "{2EC72E12-9EBF-4243-9C9F-16CCFF771BB4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp", "BankApp\BankApp.csproj", "{0FBE52EC-D956-440C-8180-952B3FB06229}"
 EndProject

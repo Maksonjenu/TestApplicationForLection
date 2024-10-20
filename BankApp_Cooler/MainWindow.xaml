@@ -12,6 +12,10 @@
                 <StackPanel>
                 <Button Click="AddTwo_Click" Height="20" Width="90" Content="+2"/>
                 <Button Click="SubTwo_Click" Height="20" Width="90" Content="-2"/>
+
+                <TextBox Height="210" Name="logField" VerticalScrollBarVisibility="Visible"/>
+
+                <Canvas Name="QQQ"></Canvas>
             </StackPanel>
             
         </StackPanel>

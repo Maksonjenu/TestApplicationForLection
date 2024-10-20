@@ -24,10 +24,23 @@ namespace BankApp_Cooler
         {
             InitializeComponent();
 
+            Ellipse e = new Ellipse();
+            e.Width = 200;
+            e.Height = 200;
+
+            e.Fill = Brushes.Red;
+
+            Canvas.SetLeft(e, 150);
+            Canvas.SetTop(e, 150);
+
+            QQQ.Children.Add(e);
+
             account = new Account(1000);
 
             account.Notify += ShowBal;
 
+            account.RegisterHandlerTaken(InfoTaken);
+            account.RegisterHandlerAdded(InfoTaken);
         }
 
         private void AddTwo_Click(object sender, RoutedEventArgs e)
@@ -41,7 +54,12 @@ namespace BankApp_Cooler
 
         void ShowBal(string bal)
         {
-            Balance.Text = account.Sum.ToString();
+            Balance.Text = $"Текущий баланс - {account.Sum} R";
+        }
+
+        void InfoTaken(string s)
+        {
+            logField.Text += $"{s}\n";
         }
     }
 }
