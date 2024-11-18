@@ -5,11 +5,13 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zmeyka", "TestApplicationForLection\Zmeyka.csproj", "{A94A1EB8-FA6A-458C-BD2E-CAA42128F57A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathSampl", "ConsoleApp1\MathSampl.csproj", "{2EC72E12-9EBF-4243-9C9F-16CCFF771BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathSampl", "ConsoleApp1\MathSampl.csproj", "{2EC72E12-9EBF-4243-9C9F-16CCFF771BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp", "BankApp\BankApp.csproj", "{0FBE52EC-D956-440C-8180-952B3FB06229}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp", "BankApp\BankApp.csproj", "{0FBE52EC-D956-440C-8180-952B3FB06229}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankApp_Cooler", "BankApp_Cooler\BankApp_Cooler.csproj", "{71D2BC41-EE66-4FA5-AF28-DFBF23FA4EE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankApp_Cooler", "BankApp_Cooler\BankApp_Cooler.csproj", "{71D2BC41-EE66-4FA5-AF28-DFBF23FA4EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{399D3E65-0FCC-4DD2-8600-E38320DF4D66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{71D2BC41-EE66-4FA5-AF28-DFBF23FA4EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71D2BC41-EE66-4FA5-AF28-DFBF23FA4EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71D2BC41-EE66-4FA5-AF28-DFBF23FA4EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{399D3E65-0FCC-4DD2-8600-E38320DF4D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399D3E65-0FCC-4DD2-8600-E38320DF4D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399D3E65-0FCC-4DD2-8600-E38320DF4D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399D3E65-0FCC-4DD2-8600-E38320DF4D66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
